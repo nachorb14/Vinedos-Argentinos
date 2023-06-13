@@ -66,18 +66,6 @@ const Checkout = () => {
                 console.error("Error al actualizar el stock", error);
                 setError("Se produjo un error al actualizar el stock de los productos, intente nuevamente");
             })
-
-        /*
-        addDoc(collection(db, "ordenes"), orden)
-            .then(docRef => {
-                setOrdenId(docRef.id);
-                vaciarCarrito();
-            })
-            .catch(error => {
-                console.error("Error al crear la orden.", error);
-                setError("Se produjo un error al crear la orden, intente nuevamente");
-            })
-            */
     }
 
     return (

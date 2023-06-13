@@ -5,13 +5,14 @@ import './CartWidget.css'
 
 const CartWidget = () => {
   const { cantidadTotal } = useContext(CarritoContext);
-  const imgCarrito = "https://w7.pngwing.com/pngs/225/984/png-transparent-computer-icons-shopping-cart-encapsulated-postscript-shopping-cart-angle-black-shopping.png"
+  const imgCarrito = "https://w7.pngwing.com/pngs/225/984/png-transparent-computer-icons-shopping-cart-encapsulated-postscript-shopping-cart-angle-black-shopping.png";
+
   return (
     <div>
-      <Link to={'/cart'}>
+      <Link style={{textDecoration:"none"}} to={'/cart'}>
         <img className='imgCarrito' src={imgCarrito} alt="Carrito de Compras" />
         {
-          cantidadTotal > 0 && <span>{cantidadTotal}</span>
+          cantidadTotal > 0 && <strong className='itemsIndicador'>{cantidadTotal}</strong>
         }
       </Link>
     </div>

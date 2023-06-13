@@ -3,7 +3,7 @@ import {getFirestore} from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCWlkI3la4snT4WCymrn-jfIayTJwemdp0",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "tienda-vinoteca.firebaseapp.com",
   projectId: "tienda-vinoteca",
   storageBucket: "tienda-vinoteca.appspot.com",

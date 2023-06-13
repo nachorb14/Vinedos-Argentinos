@@ -12,16 +12,16 @@ const NavBar = () => {
         <nav>
             <ul>
                 <li>
-                  <NavLink to={`/categoria/1`}>Cabernet Sauvignon</NavLink>
+                  <NavLink className="miBtn" to={`/categoria/1`}>Cabernet Sauvignon</NavLink>
                 </li>
                 <li>
-                  <NavLink to={`/categoria/2`}> Malbec</NavLink>
+                  <NavLink className="miBtn" to={`/categoria/2`}> Malbec</NavLink>
                 </li>
                 <li>
-                  <NavLink to={`/categoria/3`}>Merlot</NavLink>
+                  <NavLink className="miBtn" to={`/categoria/3`}>Merlot</NavLink>
                 </li>
                 <li>
-                  <NavLink to={`/categoria/4`}>Pinot Noir</NavLink>
+                  <NavLink className="miBtn" to={`/categoria/4`}>Pinot Noir</NavLink>
                 </li>
             </ul>
         </nav>
