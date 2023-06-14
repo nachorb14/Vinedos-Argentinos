@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.textCardProducto {
+    color: white;
+}
+
 .imgProducto {
     width: 150px;
     object-fit: contain;

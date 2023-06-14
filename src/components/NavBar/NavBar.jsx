@@ -3,25 +3,27 @@ import './NavBar.css'
 import { NavLink, Link } from 'react-router-dom'
 
 const NavBar = () => {
+  const logoVinoteca = '../img/logo-vinedos.jpg';
+
   return (
     <header>
       <Link to={"/"}>
-        <h1>Viñedos Argentinos</h1>
+        <img className='logoVinoteca' src={logoVinoteca} alt="Logo Vinoteca" />
       </Link>
 
         <nav>
             <ul>
                 <li>
-                  <NavLink className="miBtn" to={`/categoria/1`}>Cabernet Sauvignon</NavLink>
+                  <NavLink className="navBarBtn" to={`/categoria/1`}>Cabernet Sauvignon</NavLink>
                 </li>
                 <li>
-                  <NavLink className="miBtn" to={`/categoria/2`}> Malbec</NavLink>
+                  <NavLink className="navBarBtn" to={`/categoria/2`}> Malbec</NavLink>
                 </li>
                 <li>
-                  <NavLink className="miBtn" to={`/categoria/3`}>Merlot</NavLink>
+                  <NavLink className="navBarBtn" to={`/categoria/3`}>Merlot</NavLink>
                 </li>
                 <li>
-                  <NavLink className="miBtn" to={`/categoria/4`}>Pinot Noir</NavLink>
+                  <NavLink className="navBarBtn" to={`/categoria/4`}>Pinot Noir</NavLink>
                 </li>
             </ul>
         </nav>
