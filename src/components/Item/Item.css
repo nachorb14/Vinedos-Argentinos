@@ -1,7 +1,8 @@
 .cardProducto {
     background-color: #6d2c7d;
     border-radius: 10px;
-    width: 15rem;
+    width: 10rem;
+    height: fit-content;
     padding: 1rem;
     margin: 1rem;
     display: flex;
@@ -11,11 +12,13 @@
 
 .textCardProducto {
     color: white;
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 1.25rem;
 }
 
 .imgProducto {
     width: 150px;
-    object-fit: contain;
 }
 
 .btnProducto {

@@ -1,6 +1,7 @@
 .miBtn {
     background-color: #6d2c7d;
     border: none;
+    border-radius: 6px;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -9,10 +10,4 @@
     font-size: 16px;
     margin: 5px;
     cursor: pointer;
-}
-
-p {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0 10px;
 }

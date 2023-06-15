@@ -1,4 +1,11 @@
 .contenedorProductos {
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
+}
+
+.imgProducto {
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 30px #000;
 }

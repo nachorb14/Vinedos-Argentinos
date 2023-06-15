@@ -13,11 +13,16 @@ li {
 
 .logoVinoteca {
     width: 10rem;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
 }
+
+
 
 .navBarBtn {
     background-color: #6d2c7d;
-    border: none;
+    border-radius: 6px;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -26,4 +31,12 @@ li {
     font-size: 16px;
     margin: 5px;
     cursor: pointer;
+}
+
+.navBarBtn:hover {
+    background-color: #311438;
+}
+
+.fondoNav {
+    background-color: #975ba6;
 }

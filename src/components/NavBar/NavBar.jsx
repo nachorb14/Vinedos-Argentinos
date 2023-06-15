@@ -6,7 +6,7 @@ const NavBar = () => {
   const logoVinoteca = '../img/logo-vinedos.jpg';
 
   return (
-    <header>
+    <header className='fondoNav'>
       <Link to={"/"}>
         <img className='logoVinoteca' src={logoVinoteca} alt="Logo Vinoteca" />
       </Link>
