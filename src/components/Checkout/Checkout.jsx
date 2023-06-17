@@ -109,12 +109,12 @@ const Checkout = () => {
                     <input type="email" value={emailConfirmacion} onChange={(e) => setEmailConfirmacion(e.target.value)} />
                 </div>
 
-                {error && <p style={{ color: "red" }}> {error} </p>}
-                <button type="submit"> Finalizar Compra </button>
+                {error && <p style={{ color: "#6d2c7d" }}> {error} </p>}
+                <button className="btnCheck" type="submit"> Finalizar Compra </button>
             </form>
             {
                 ordenId && (
-                    <strong>¡Gracias por tu compra! Tu número de Orden es {ordenId}</strong>
+                    <strong className="msjOrden">¡Gracias por tu compra! Tu número de Orden es {ordenId}</strong>
                 )
             }
         </div>

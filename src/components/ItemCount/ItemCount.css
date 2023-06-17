@@ -11,3 +11,7 @@
     margin: 5px;
     cursor: pointer;
 }
+
+.miBtn:hover {
+    background-color: #311438;
+}
